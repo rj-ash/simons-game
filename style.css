@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+.instruction{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box{
+    height: 250px;
+    width: 250px;
+    border: 10px solid black;
+    border-radius: 10%;
+    margin: 2rem 2rem;
+}
+
+.upper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.lower{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pink{
+    background-color: pink;
+}
+.cyan{
+    background-color: rgb(18, 176, 228);
+}
+.orange{
+    background-color: rgb(241, 135, 20);
+}
+.purple{
+    background-color: rgb(68, 66, 202);
+}
+
+.gameFlash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(21, 255, 12);
+}
